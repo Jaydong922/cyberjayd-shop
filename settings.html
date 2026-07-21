@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Settings - CyberJayd Shop</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+        body{background:#0b1020;color:#fff;padding:20px}
+        .header{background:#1a2a50;padding:15px;border-radius:8px;margin-bottom:20px;display:flex;justify-content:space-between;align-items:center}
+        .menu a{color:#7dd3fc;text-decoration:none;margin:0 12px;font-weight:bold}
+        .card{background:#1a2a50;padding:20px;border-radius:8px;margin:15px 0;border-left:4px solid #00d9ff}
+        h3{color:#7dd3fc;margin-bottom:15px}
+        input{width:100%;padding:12px;margin:8px 0;border:none;border-radius:6px;background:#0f1a35;color:#fff;font-size:16px}
+        button{background:#00d9ff;color:#000;font-weight:bold;border:none;border-radius:6px;padding:12px 20px;cursor:pointer;margin-top:10px}
+        button:hover{background:#00b8d4}
+        .info{color:#aaa;font-size:14px;margin-top:5px}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>⚙️ SYSTEM SETTINGS</h2>
+        <div class="menu">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="products.html">Products</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>👤 Account Information</h3>
+        <input type="text" value="Jayd Repoberbio" placeholder="Full Name">
+        <input type="email" value="repoberbiojayd3@gmail.com" placeholder="Email Address">
+        <button>Update Info</button>
+    </div>
+
+    <div class="card">
+        <h3>🔒 Change Password</h3>
+        <input type="password" placeholder="Current Password">
+        <input type="password" placeholder="New Password">
+        <input type="password" placeholder="Confirm New Password">
+        <button>Save New Password</button>
+    </div>
+
+    <div class="card">
+        <h3>🛠️ Shop Configuration</h3>
+        <input type="text" value="CyberJayd Shop" placeholder="Shop Name">
+        <input type="text" value="Cebu City, Philippines" placeholder="Location">
+        <button>Save Settings</button>
+        <p class="info">*All changes will apply immediately*</p>
+    </div>
+
+</body>
+</html>
